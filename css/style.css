@@ -1,0 +1,350 @@
+.os {
+    background-color: chocolate;
+}
+
+body {
+    padding-top: 80px;
+    height: 6000px;
+}
+
+/*********************BOOTStrap  ****************/
+/* Active link */
+.navbar-nav .nav-link.active {
+    background-color: #E41B17;
+}
+
+/* link */
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+.navbar-brand {
+    color: #BBB;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-top: solid 3px #E41B17;
+    background-color: #333;
+    color: #BBB;
+
+}
+
+.navbar-nav .dropdown-menu:focus,
+.navbar-nav .dropdown-menu :hover {
+    background-color: black;
+}
+
+.dropdown-menu>li>a {
+    transition: 0.5s ease;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover {
+    color: #fff;
+    background-color: #E41B17;
+    padding-left: 25px;
+}
+
+.dropdown-divider {
+    background-color: beige;
+}
+
+span {
+    color: #E41B17;
+
+}
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+.about h1 span {
+    color: #E41B17;
+}
+
+.features {
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h1 {
+    margin-bottom: 50px;
+}
+
+.features .feat p {
+    line-height: 2em;
+}
+
+.features .feat {
+    margin-bottom: 20px;
+}
+
+.features .feat i {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #E41B17
+}
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.testimonials .lead {
+    line-height: 2em;
+}
+
+.carousel-item span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E41B17;
+}
+
+.carousel-indicators {
+    margin-top: 20px;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+
+
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #E41B17;
+    transition: all 0.5s ease;
+}
+
+/* .testimonials .carousel-indicators {} */
+
+.testimonials .carousel-inner {
+    min-height: 160px !important;
+}
+
+.price-table h1 {
+
+    margin-bottom: 40px;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.price-table .price-box {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+
+}
+
+.price-table .price-box h2 {
+    margin: 5px 0 15px;
+}
+
+.price-table .price-box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    line-height: 100px;
+    transition-duration: 0.5s;
+    border-radius: 2px solid #fff;
+}
+
+.price-table .price-box:hover p {
+
+    transform: scale(1.1) rotate(360deg);
+    border-radius: 2px solid #dfdfdf;
+
+}
+
+.price-table .price-box ul {
+    line-height: 250%;
+}
+
+.price-table .price-box a {
+    margin-bottom: 5px;
+}
+
+.our_team {
+    background: url("../images/christin-hume-Hcfwew744z4-unsplash.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.our_team .team {
+    background: rgba(2, 2, 2, 0.7);
+    color: #fff;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our_team .team h1 {
+    padding-bottom: 60px;
+}
+
+.person {
+    padding-bottom: 20px;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+}
+
+.person h3 {
+    padding-top: 10px;
+}
+
+.person i img {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
+}
+
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0px;
+}
+
+.subscribe button {
+    margin-top: 15px;
+    border-radius: 0px;
+}
+
+.statistec {
+    background: url("../images/OIG4.jpg") no-repeat center fixed;
+    background-size: cover;
+    min-height: 300px;
+
+}
+
+.statistec .data {
+    background: rgba(2, 2, 2, 0.7);
+    color: #888;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+
+.statistec h1 {
+    margin-bottom: 60px;
+}
+
+.statistec p {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.stats span {
+    color: #888;
+    font-size: 18px;
+}
+
+.statistec .stats {
+    padding-bottom: 30px;
+    transition: all() 0.5s ease-in-out;
+}
+
+.statistec .stats:hover {
+    color: #fff;
+}
+
+.progress {
+    margin-bottom: 20px;
+    height: 36px;
+}
+
+.our_skills {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.our_skills h1 {
+    margin-bottom: 60px;
+}
+
+.skill-progress {
+
+    margin-bottom: 20px;
+}
+
+.our_skills h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.contact_us {
+    background: url('../images/vladstudio_squareelephantwashere_1280x1024.jpg') no-repeat center fixed;
+    background-size: cover;
+    min-height: 300px;
+
+}
+
+.contact_us .fields {
+    background: rgba(8, 8, 8, 0.7);
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: #fff;
+}
