@@ -373,3 +373,25 @@ span {
     color: #fff;
     border: none;
 }
+
+.our_clients {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our_clients li {
+
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.our_clients li:hover {
+
+    opacity: 1;
+}
