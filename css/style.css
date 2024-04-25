@@ -4,10 +4,20 @@
 
 body {
     padding-top: 80px;
-    height: 6000px;
 }
 
-/*********************BOOTStrap  ****************/
+h1,
+h2,
+h3,
+h4,
+h5,
+.lead {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*********************BOOTStrap****************/
 /* Active link */
 .navbar-nav .nav-link.active {
     background-color: #E41B17;
@@ -395,3 +405,75 @@ span {
 
     opacity: 1;
 }
+
+.footer {
+    padding-top: 20px;
+
+    background: #111;
+    color: #AAA;
+}
+
+.footer h3 {
+    color: #0895D1;
+    letter-spacing: 1px;
+    margin: 30px 0px 20px;
+}
+
+.footer a {
+    color: #AAA;
+}
+
+.footer li:hover {
+    color: #fff;
+}
+
+.footer .three-columns {
+    overflow: hidden;
+
+}
+
+.footer .three-columns li {
+    width: 33.33333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer .social-list {
+    overflow: hidden;
+    margin: 20px 0px 10px;
+
+}
+
+.footer .social-list li {
+    float: left;
+    margin-right: 5px;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.footer .social-list li:hover {
+    opacity: 1;
+}
+
+.footer .img-thumbnail {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+
+.footer .copy_right {
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer .copy_right span {
+
+    color: #0895D1;
+}
+
+/* START MEDIA QUARY */
+
+
