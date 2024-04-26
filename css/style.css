@@ -71,6 +71,44 @@ span {
 
 }
 
+/* Section Tool Box */
+
+.option-box {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+
+}
+
+.option-box .color-option {
+    float: left;
+    background-color: #333;
+    color: #fff;
+    padding: 10x;
+    width: 200px;
+    border: 2px solid #E41B17;
+    display: none;
+
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    background-color: #E41B17;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gear-cheak {
+    padding: 5px;
+    background-color: #E41B17;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* End Tool  Box*/
+
 .about {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -476,7 +514,15 @@ span {
 
 /* START MEDIA QUARY */
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px;
+    }
+
+    .our_work {
+        text-align: center;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {}
 
