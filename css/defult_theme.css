@@ -1,0 +1,24 @@
+    .navbar-nav .nav-link.active,
+    .navbar-expand-lg .navbar-nav .dropdown-menu a:hover,
+    .carousel-indicators [data-bs-target] {
+        background-color: #E41B17;
+    }
+
+    span,
+    .about h1 span,
+    .features .feat i,
+    .carousel-item span,
+    .footer .copy_right span,
+    .footer h3 {
+        color: #E41B17;
+    }
+
+
+    .option-box .color-option {
+
+        border: 3px solid #E41B17;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-top: 3px solid #E41B17;
+    }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/defult_theme.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,23 +16,12 @@
 </head>
 
 <body>
-    <section class="option-box">
-        <div class="color-option">
-            <h4>Color Option</h4>
-            <ul class="list-unstyled">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <i class="fa fa-gear fa-3x gear-cheak"></i>
-    </section>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
 
-        <div class="container-fluid">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-around fixed-top" data-bs-theme="dark">
+
+        <div class="container">
 
             <a class="navbar-brand" href="#">Boot<span>Strap</span></a>
 
@@ -44,7 +34,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -71,6 +61,20 @@
                     </li>
                 </ul>
 
+                <ul class="dropdown-menu2 fa fa-moon fa-2x gear-cheak"></ul>
+
+                <!-- <section class="option-box">
+                    <div class="color-option">
+                        <h4>Color Option</h4>
+                        <ul class="list-unstyled">
+                            <li data-value="css/defult_theme.css"></li>
+                            <li data-value="css/purbuletheme.css"></li>
+                            <li data-value="css/bluetheme.css"></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-gear fa-3x gear-cheak"></i>
+                </section> -->
+
             </div>
         </div>
     </nav>
@@ -86,11 +90,11 @@
     <!--features  -->
     <section class="features  text-center">
         <div class="container">
-            <h1>Our Features</h1>
+            <h2 class="h1">Our Features</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="feat">
-                        <i class="fa fa-check"></i>
+                        <i class="fa fa-check fa-3x"></i>
                         <h4>100% Responsive</h4>
                         <p>We feel that the world still produces way too much software that is frankly substandard. The
                             reasons for this are pretty simple: software producers do not pay enough attention to
@@ -99,7 +103,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feat">
-                        <i class="fa fa-thumbs-up"></i>
+                        <i class="fa fa-thumbs-up fa-3x"></i>
                         <h4>Awesome Display</h4>
                         <p>We feel that the world still produces way too much software that is frankly substandard. The
                             reasons for this are pretty simple: software producers do not pay enough attention to
@@ -108,7 +112,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feat">
-                        <i class="fa fa-eye"></i>
+                        <i class="fa fa-eye fa-3x"></i>
                         <h4>Well Document</h4>
                         <p>We feel that the world still produces way too much software that is frankly substandard. The
                             reasons for this are pretty simple: software producers do not pay enough attention to
@@ -117,7 +121,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feat">
-                        <i class="fa fa-pen"></i>
+                        <i class="fa fa-pen fa-3x"></i>
                         <h4>Fast Speed</h4>
                         <p>We feel that the world still produces way too much software that is frankly substandard. The
                             reasons for this are pretty simple: software producers do not pay enough attention to
@@ -131,7 +135,7 @@
     <!-- testimonials -->
     <section class="testimonials text-center">
         <div class="container">
-            <h1>What Our Clinet Say?</h1>
+            <h2 class="h1">What Our Clinet Say?</h2>
             <div id="carouseltestimonials" class="carousel slide">
 
                 <div class="carousel-inner">
@@ -159,14 +163,14 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1">
-                        <i class="fa fa-check"></i>
+                        <i class="fa fa-check fa-2x "></i>
                     </button>
                     <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="1"
                         aria-label="Slide 2">
-                        <i class="fa fa-users"></i></button>
+                        <i class="fa fa-users fa-2x"></i></button>
                     <button type="button" data-bs-target="#carouseltestimonials" data-bs-slide-to="2"
                         aria-label="Slide 3">
-                        <i class="fa fa-thumbs-up"></i></button>
+                        <i class="fa fa-thumbs-up fa-2x"></i></button>
                 </div>
             </div>
         </div>
@@ -175,14 +179,14 @@
     <!-- price-tabl -->
     <section class="price-table text-center">
         <div class="container">
-            <h1>Our Amazing Prices</h1>
+            <h2 class="h1">Our Amazing Prices</h2>
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="price-box">
                         <h2 class="text-primary">Hosting</h2>
                         <p class="d-block mx-auto">$40</p>
                         <ul class="list-unstyled">
-                            <li>5GB Storage Space</li>
+                            <li>5 GB Storage Space</li>
                             <li>10 Email Accounts</li>
                             <li>Ips:2 Ip</li>
                             <li>DataBase: 10</li>
@@ -241,7 +245,7 @@
     <section class="our_team text-center">
         <div class="team">
             <div class="container">
-                <h1>Meat Our Awesome Team</h1>
+                <h2 class="h1">Meat Our Awesome Team</h2>
                 <div class="row">
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
@@ -300,14 +304,22 @@
     </section>
 
     <!-- subscribe -->
-    <section class="subscribe text-center">
-        <div class="container">
-            <h1>Keep In Touch</h1>
+    <section class="subscribe">
+        <div class="container text-center">
+            <h2 class="h1">Keep In Touch</h2>
             <p class="lead">sign up for NewLeetter Dont Worry Span We Hate it Too</p>
-            <form>
-                <input class="form-control input-lg" type="text" placeholder="Write Your Email">
-                <button class="btn btn-danger"><i class="fa fa-edit"></i>Subscribe</button>
+            <form action="#">
+                <div class="row-outline">
+                    <div class="input-group mb-3 col-6">
+                        <input type="text" class="form-control" placeholder="Write Your Email"
+                            aria-label="Example text with button addon" aria-describedby="button-addon1">
+
+                        <button class="btn btn-outline btn-danger " type="button" id="button-addon1"><i
+                                class="fa fa-edit"></i>Subscribe</button>
+                    </div>
+                </div>
             </form>
+        </div>
         </div>
     </section>
 
@@ -315,7 +327,7 @@
     <section class="statistec text-center">
         <div class="data">
             <div class="container">
-                <h1>Our Main statistec</h1>
+                <h2 class="h1">Our Main statistec</h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="stats">
@@ -353,35 +365,56 @@
     </section>
 
     <!-- My skilles -->
-    <section class="our_skills">
+    <section class="our_skills ">
         <div class="container">
-            <h1 class="text-center">My skilles</h1>
+         <h2 class="h1 text-center ">My skilles</h2>
             <div class="row justify-content-around">
                 <!-- skils -->
-                <div class="col-md-5">
+                <div class="container col-md-6">
                     <div class="skill-progress">
+
+                        <div class="row mb-3">
+                            <label class=" col-md-10 col-xs-6 mb-3">Uploading Document</label>
+                            <label class="col-md-2 col-xs-auto mb-3">90%</label>
+                        </div>
+
                         <div class="progress">
-                            <div class="progress-bar progress-bar-success active " role="progressbar" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                Html/Css3
+                            <div class="progress-bar progress-bar-success active " role="progressbar"
+                                aria-label="Example 1px high" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 90%;">
                             </div>
                         </div>
+
+                        <div class="row">
+                            <label class="col-md-10 col-xs-8 mb-3"> Bootstrap</label>
+                            <label class="col-md-2 col-xs-4 mb-3">60%</label>
+                        </div>
+
                         <div class="progress">
                             <div class="progress-bar progress-bar-success active " role="progressbar" aria-valuenow="60"
                                 aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                Bootstrap
                             </div>
                         </div>
+
+                        <div class="row">
+                            <label class="col-sm-10 mb-3" for="progress-bar">Jquary</label>
+                            <label class="col-sm-auto mb-3" for="progress-bar ">70%</label>
+                        </div>
+
                         <div class="progress">
                             <div class="progress-bar progress-bar-success active " role="progressbar" aria-valuenow="70"
                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                Jquary
                             </div>
                         </div>
+
+                        <div class="row">
+                            <label class="mb-3 col-sm-10" for="progress-bar">Laravel</label>
+                            <label class="col-sm-auto mb-3" for="progress-bar ">70%</label>
+                        </div>
+
                         <div class="progress">
                             <div class="progress-bar progress-bar-success active " role="progressbar" aria-valuenow="90"
                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                Laravel
                             </div>
                         </div>
 
@@ -391,7 +424,7 @@
 
 
                 <!-- team-info -->
-                <div class="col-md-6 ">
+                <div class="team_info col-md-6 ">
                     <h3>About The Team</h3>
                     <p class="lead">We Are Specialised Desiging And Programming Team Passinate About Web Design to
                         refresh their styles and rebuild them with CSS variables for more control over styling,The
@@ -409,30 +442,19 @@
             <div class="container text-center">
 
                 <i class="fa fa-headphones fa-3x"></i>
-                <h1>Tell Us What Your fail</h1>
+                <h2 class="h1">Tell Us What Your fail</h2>
                 <p>Breaking columns to a new line in flexbox requires </p>
 
                 <form role="form">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control input-lg" placeholder="User Name">
-                            </div>
-
-                            <div class="form-group ">
-                                <input type="text" class="form-control input-lg" placeholder="Email Address">
-                            </div>
-
-                            <div class="form-group ">
-                                <input type="text" class="form-control input-lg" placeholder="Cell  Phone Number">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-group">
+                                <input type="text" class="form-control input-lg mb-2" placeholder="User Name">
+                                <input type="text" class="form-control input-lg mb-2" placeholder="Email Address">
+                                <input type="text" class="form-control input-lg mb-2" placeholder="Cell  Phone Number">
                                 <textarea class="form-control input-lg" placeholder="Message Text Here..."></textarea>
                             </div>
-                            <button class="btn btn-primary ">Contact Us</button>
+                            <button class="btn btn-primary">Contact Us</button>
                         </div>
                     </div>
                 </form>
@@ -461,7 +483,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <h3>Sitmap</h3>
-                    <ul class="list-unstyled three-columns">
+                    <ul class="list-unstyled">
                         <li>about</li>
                         <li>features</li>
                         <li>Our Amazing Prices</li>
@@ -477,7 +499,7 @@
                         <li><img src="images/icons8-gmail-48.png" alt="gmail"></li>
                         <li><img src="images/icons8-linkedin-48.png" alt="linkedin"></li>
                         <li><img src="images/icons8-telegram-app-48.png" alt="telegram"></li>
-                        <li><img src="images/icons8-website-60.png" alt="website"></li>
+                        <li><img src="images/icons8-website-60.png" width="48px" height="48px" alt="website"></li>
                         <li><img src="images/icons8-youtube-48.png" alt="youtube"></li>
                     </ul>
                 </div>
@@ -531,9 +553,12 @@
 
         <div class="copy_right text-center">
             Copyright &copy; 2024 <span>Baraka</span> .Inc
-
         </div>
     </section>
+
+    <div id="scroll-top">
+        <i class="fa fa-chevron-up fa-2x"></i>
+    </div>
 
     <script src=" js/jquary.js">
     </script>

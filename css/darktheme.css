@@ -1,0 +1,48 @@
+    .navbar-nav .nav-link.active,
+    .navbar-expand-lg .navbar-nav .dropdown-menu a:hover,
+    .gear-cheak,
+    .carousel-indicators [data-bs-target] {
+        background-color: #0895D1;
+    }
+
+    span,
+    .about h1 span,
+    .features .feat i,
+    .carousel-item span,
+    .footer .copy_right span,
+    .footer h3 {
+        color: #0895D1;
+    }
+
+
+    .option-box .color-option {
+
+        border: 3px solid #0895D1;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-top: 3px solid #0895D1;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu,
+    .navbar-expand-lg .navbar-nav .nav-link,
+    .navbar-brand,
+    .about .lead,
+    .statistec .data,
+    .subscribe h2,
+    .stats span {
+        color: #BBB;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: #333;
+    }
+
+    .navbar-nav .dropdown-menu:focus,
+    .navbar-nav .dropdown-menu :hover {
+        background-color: black;
+    }
+
+    .dropdown-divider {
+        background-color: beige;
+    }
